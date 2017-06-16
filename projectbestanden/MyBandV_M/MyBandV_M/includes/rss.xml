@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>MyBand Home</title>
+  <link>www.20313.hosts.ma-cloud.nl/bewijzen/jaar 1.2/periode4/myband/MyBandV_M/?page=home</link>
+  <description>The homepage of MyBand project</description>
+  <item>
+    <title>MyBand Tour</title>
+    <link>www.20313.hosts.ma-cloud.nl/bewijzen/jaar 1.2/periode4/myband/MyBandV_M/?page=tour</link>
+    <description>The touring schedule of MyBand project</description>
+  </item>
+  <item>
+    <title>MyBand About</title>
+    <link>www.20313.hosts.ma-cloud.nl/bewijzen/jaar 1.2/periode4/myband/MyBandV_M/?page=about</link>
+    <description>The about page of MyBand project</description>
+  </item>
+  <item>
+    <title>MyBand Contact</title>
+    <link>www.20313.hosts.ma-cloud.nl/bewijzen/jaar 1.2/periode4/myband/MyBandV_M/?page=contact</link>
+    <description>The contact page of MyBand project</description>
+  </item>
+  <item>
+    <title>MyBand Search</title>
+    <link>www.20313.hosts.ma-cloud.nl/bewijzen/jaar 1.2/periode4/myband/MyBandV_M/?page=search</link>
+    <description>The search page of MyBand project</description>
+  </item>
+</channel>
+
+</rss>

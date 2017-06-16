@@ -1,0 +1,389 @@
+/*
+ * Dit is de custom style sheet van jouw website
+ *
+ */
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+	font-family: "Courier New";
+	background-color: white;
+	color: black;
+    margin: 0;
+    padding: 0;
+}
+
+/*---------------------------------------------------------------------------------------------- header*/
+header{
+    background-image: url("../images/cover/1.jpg");
+    background-size: cover;
+    height: 150px;
+}
+.headfoto{
+    height: 100%;
+    width: auto;
+    vertical-align:middle;
+    text-align:center
+    }
+/*-------------------------------------------------------------------------------------------- body*/
+
+article{
+    
+}
+.mainbar{
+    width: 80%;
+    float: left;
+    padding-bottom: 35px;
+/*
+    border-bottom-style: solid;
+    border-bottom-color: darkgray;
+    border-bottom-width: 1px;
+*/
+}
+.mainbar2{
+    width: 80%;
+    float: left;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-bottom-style: solid;
+    border-bottom-color: darkgray;
+    border-bottom-width: 1px;
+}
+
+/*
+.mainbar2 hr{
+    float: left;
+    width: 90%;
+    color: darkgrey;
+    
+}
+*/
+.mainbar2 button{
+    margin-top: 15px;
+    float: right;
+    margin-right: 20px;
+    background-color: cadetblue;
+    color:white;
+    border-style: solid;
+    border-color: darkgrey;
+}
+
+.mainbar3{
+    width: 100%;
+    float: left;
+    
+    border-bottom-style: solid;
+    border-bottom-color: darkgray;
+    border-bottom-width: 1px;
+}
+
+.sidebar{
+    width: 20%;
+    float: left;
+    background-color: cadetblue;
+    
+    
+    
+    
+}
+.sidebar img{
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 10%;
+    
+}
+
+
+.sidebar h1{
+    text-align: center;
+}
+section{
+    display: block;
+    width: 100%;
+    height: 100%;
+
+        
+}
+.sidebar2{
+    width: 20%;
+    float: left;
+
+    
+}
+
+.sidebar2 img{
+    
+    width: 150px;
+    height: 150px;
+    padding-top: 20px;
+    
+}
+
+.opzij{
+    margin-left: 3%;
+    margin-right:3%;
+    margin-top: 1%;
+    float: left;
+}
+
+.opzij p{
+ margin-left: 10px;
+}
+
+/*
+.opzij h1{
+ margin-left: 10px;
+}
+*/
+
+a {
+
+	text-decoration: none;
+}
+
+.aligncenter, div.aligncenter {
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+
+	float: left;
+}
+
+.alignright {
+
+	float: right;
+}
+
+.wrap {
+display: flex;
+flex-wrap: wrap;
+
+}
+
+/*---------------------------------------------------------------------------------------------------------- nav*/
+
+
+/*
+nav ul {
+    flex: 0 0 100%;
+    clear: both;
+	margin:0 auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ Change the link color to #111 (black) on hover 
+nav li a:hover {
+    background-color: #111;
+}
+*/
+
+#nav{
+    border-color: #333;
+    background-color:#333;
+    padding-bottom: 8px;
+    padding-top: 8px;
+
+}
+
+nav ul {
+    flex: 0 0 100%;
+    clear: both;
+	margin:0 auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.knopjes {
+    overflow: hidden;
+	display: inline;
+    position: relative;
+    padding: 0px;
+}
+
+.knopjes li{
+    margin: 0 auto;
+    font-size: 20px;
+    display: inline;
+    position: relative;
+	list-style-type: none;
+    padding-left: 20px;
+    padding-right:20px;
+}
+.knopjes li a{
+    text-decoration: none;
+    color: white;
+    font-family:inherit;
+    
+}
+
+nav li :hover {
+    color:cadetblue;
+}
+
+/*-------------------------------------------------------------------------------------------------------- search*/
+.search{
+    width: 100%;
+}
+.zoek{
+    width: 251px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+
+
+
+/*-------------------------------------------------------------------------------------------------------- vid*/
+.schermmargin{
+    margin-top: 3%;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 20%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 40%;
+    height: 100%;
+}
+/*----------------------------------------------------------------------------------------------------- footer*/
+footer {
+    text-align:center;
+    width: 100%;
+	color: white;
+    background-color: royalblue;
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 20px;
+    margin: 0 auto;
+    overflow:hidden;
+    font-size: 10px;
+}
+footer span{
+    width: 80%;
+}
+/*--------------------------------------------------------- mediaquery*/
+
+@media screen and (max-width: 880px) {
+
+.sidebar2{
+    display: none;
+    width: 0%;
+    float: left;
+
+    
+}
+.mainbar2{
+    width: 100%;
+}
+    .video-container {
+    position: relative;
+    padding-bottom: 40%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 400px;
+    height: 230px;
+}
+
+}
+/*--------------------------------------------------------- mediaquery*/
+
+@media screen and (max-width: 640px) {
+    .knopjes li{
+    margin: 0 auto;
+    font-size: 10px;
+    display: inline;
+    position: relative;
+	list-style-type: none;
+    padding-left: 8px;
+    padding-right:8px;
+    }
+.sidebar2{
+    display: none;
+    width: 0%;
+    float: left;
+
+    
+}
+.video-container {
+    position: relative;
+    padding-bottom: 50%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 400px;
+    height: 230px;
+}
+    
+}
+/*--------------------------------------------------------- mediaquery*/
+
+@media screen and (max-width: 360px) {
+
+.sidebar{
+    display: none;
+    width: 0%;
+    float: left;
+
+    
+}
+.mainbar{
+    width: 100%;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 50%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 280px;
+    height: 161px;
+}
+}
